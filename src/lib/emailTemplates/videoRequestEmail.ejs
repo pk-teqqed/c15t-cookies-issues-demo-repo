@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Notification</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+      .email-container {
+        max-width: 600px;
+        margin: 0 auto;
+        border: 1px solid #333;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .header {
+        background-color: #000;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      .header h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+      .content {
+        padding: 30px 20px;
+        background-color: #fff;
+        color: #333;
+      }
+      .content p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      .alert-box {
+        background-color: #f5f5f5;
+        padding: 15px;
+        border-radius: 4px;
+        margin: 20px 0;
+      }
+      .alert-box h2 {
+        margin: 0 0 15px 0;
+        font-size: 18px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+      }
+      .action-buttons {
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+      }
+      .action-buttons .button {
+        margin: 0 10px;
+      }
+      .alert-box p {
+        margin: 8px 0;
+        font-size: 15px;
+      }
+      .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+        font-size: 14px;
+      }
+      .footer p {
+        margin: 0;
+      }
+      .footer p.copyright {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <!-- Header -->
+      <div class="header">
+        <h1>New Video Editing Request <%= name %></h1>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+        <p>This is an automated notification for administrators.</p>
+
+        <div class="alert-box">
+          <h2>New Video Editing Request from <%= name %></h2>
+
+          <p><strong>Name:</strong> <%= name %></p>
+          <p><strong>Email:</strong> <%= email %></p>
+          <p><strong>Message:</strong> <%= message %></p>
+          <div class="action-buttons">
+            <a href="https://backoffice.sensoriumarte.com/" target="_blank" class="button"
+              >View Full Details</a
+            >
+          </div>
+        </div>
+
+        <p>Please review this activity and take appropriate action if necessary.</p>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <p>This is an automated message. Please do not reply directly to this email.</p>
+        <p class="copyright">
+          &copy; <%= new Date().getFullYear() %> SensoriuArte. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

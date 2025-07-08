@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Artwork Request</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+      }
+      .header {
+        text-align: center;
+        padding: 20px 0;
+        border-bottom: 2px solid #333333;
+        background-color: #333;
+        color: #fff;
+      }
+      .content {
+        padding: 20px 0;
+      }
+      .button {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #333333;
+        color: #ffffff !important;
+        text-decoration: none;
+        border-radius: 4px;
+        margin: 20px 0;
+      }
+      .footer {
+        text-align: center;
+        padding: 20px 0;
+        color: #666666;
+        font-size: 12px;
+        border-top: 1px solid #dddddd;
+      }
+      .request-details {
+        background-color: #f8f8f8;
+        padding: 20px;
+        margin: 15px 0;
+        border-radius: 4px;
+        border-left: 4px solid #333;
+      }
+      .priority-tag {
+        display: inline-block;
+        padding: 4px 8px;
+        background-color: #333;
+        color: white;
+        border-radius: 4px;
+        font-size: 12px;
+        margin-bottom: 15px;
+      }
+      .dpi-score {
+        background-color: #f8f8f8;
+        padding: 15px;
+        margin: 15px 0;
+        border-radius: 4px;
+        border-left: 4px solid #333;
+      }
+
+      .dpi-score h4 {
+        margin-top: 0;
+        color: #333;
+      }
+
+      .dpi-score p {
+        margin: 5px 0;
+      }
+      .file-preview {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 4px;
+      }
+      .action-buttons {
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+      }
+      .action-buttons .button {
+        margin: 0 10px;
+      }
+      .customer-info {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>New Artwork Request</h1>
+        <p>Request ID: #<%= Date.now() %></p>
+      </div>
+
+      <div class="content">
+        <div class="priority-tag">New Request</div>
+
+        <div class="customer-info">
+          <h3>Customer Information</h3>
+          <p><strong>Name:</strong> <%= name %></p>
+          <p><strong>Email:</strong> <%= email %></p>
+          <p><strong>Submission Date:</strong> <%= new Date().toLocaleString() %></p>
+        </div>
+
+        <div class="request-details">
+          <h3>Artwork Request Details</h3>
+          <p><strong>Style Selected:</strong> <%= style %></p>
+          <p><strong>Include Soundwave:</strong> <%= includeSoundwave ? 'Yes' : 'No' %></p>
+          <p><strong>Color Selection:</strong> <%= color %></p>
+
+          <% if (ArtworkTextIncluded) { %>
+          <p><strong>Custom Text:</strong> <%= artworkText %></p>
+          <p><strong>Font Selection:</strong> <%= fontFamily %></p>
+          <% } %>
+
+          <!-- Add DPI Score Key Section -->
+          <div class="dpi-score">
+            <h4>DPI Score Key</h4>
+            <p><strong>DPI Score:</strong> <%= dpiScore %></p>
+            <p>
+              <strong>Quality Rating:</strong>
+              <% if (dpiScore >= 300) { %> Excellent (Suitable for high-quality printing) <% } else
+              if (dpiScore >= 150 && dpiScore < 300) { %> Good (Suitable for web or medium-quality
+              printing) <% } else { %> Low (Not recommended for printing) <% } %>
+            </p>
+          </div>
+
+          <div class="file-preview">
+            <h4>Uploaded File</h4>
+            <% if (image) { %>
+            <p>✓ Reference Image Uploaded</p>
+            <% } %> <% if (videoUrls) { %>
+            <p>
+              ✓ Video File(s) Uploaded (<a href="<%= videoUrls %>" target="_blank">View Video</a>)
+            </p>
+            <% } %>
+          </div>
+        </div>
+
+        <div class="action-buttons">
+          <a href="https://backoffice.sensoriumarte.com/" target="_blank" class="button"
+            >View Full Details</a
+          >
+        </div>
+
+        <p style="text-align: center; margin-top: 20px">
+          This request is pending your review. Please process it within 24 hours.
+        </p>
+      </div>
+
+      <div class="footer">
+        <p>This is an automated message from your Artwork Management System.</p>
+        <p>&copy; <%= new Date().getFullYear() %> SensoriumArte. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>

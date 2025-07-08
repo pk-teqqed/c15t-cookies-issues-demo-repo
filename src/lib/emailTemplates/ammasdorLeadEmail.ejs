@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>New Ambassador Lead</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+    
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+      padding: 20px;
+      line-height: 1.6;
+      color: #495057;
+    }
+    .container {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 40px;
+      max-width: 650px;
+      margin: auto;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #2c3e50;
+      font-weight: 600;
+      margin: 0;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 15px;
+      margin-bottom: 15px;
+    }
+    .label {
+      font-weight: 500;
+      color: #6c757d;
+    }
+    .value {
+      color: #212529;
+      font-weight: 400;
+    }
+    .social-badge {
+      display: inline-block;
+      background: #f1f3f5;
+      padding: 5px 12px;
+      border-radius: 20px;
+      margin-right: 8px;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    .reason-box {
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 5px;
+      border-left: 3px solid #4e66f8;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 13px;
+      color: #adb5bd;
+      text-align: center;
+      padding-top: 20px;
+      border-top: 1px solid rgba(0,0,0,0.05);
+    }
+    .highlight {
+      color: #4e66f8;
+      font-weight: 500;
+    }
+    .icon {
+      color: #4e66f8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2><span class="icon">✉️</span> New Ambassador Application</h2>
+    </div>
+
+    <div class="info-grid">
+      <div class="label">Name:</div>
+      <div class="value highlight"><%= firstName %> <%= lastName %></div>
+      
+      <div class="label">Email:</div>
+      <div class="value"><a href="mailto:<%= email %>" style="color: #4e66f8; text-decoration: none;"><%= email %></a></div>
+      
+      <div class="label">Location:</div>
+      <div class="value">📍 <%= location %></div>
+      
+      <div class="label">Content Type:</div>
+      <div class="value">🎨 <%= contentType %></div>
+    </div>
+
+    <% if (instagram || tiktok) { %>
+      <div class="info-grid">
+        <div class="label">Social Media:</div>
+        <div class="value">
+          <% if (instagram) { %>
+            <span class="social-badge">📸 Instagram: <%= instagram %></span>
+          <% } %>
+          <% if (tiktok) { %>
+            <span class="social-badge">🎵 TikTok: <%= tiktok %></span>
+          <% } %>
+        </div>
+      </div>
+    <% } %>
+
+    <div class="info-grid">
+      <div class="label">Reason for Joining:</div>
+      <div class="value">
+        <div class="reason-box"><%= reason %></div>
+      </div>
+    </div>
+
+    <% if (discountCode) { %>
+      <div class="info-grid">
+        <div class="label">Discount Code:</div>
+        <div class="value">
+          <span style="background: #e8f5e9; padding: 5px 10px; border-radius: 4px; color: #2e7d32; font-family: monospace;">
+            <%= discountCode %>
+          </span>
+        </div>
+      </div>
+    <% } %>
+
+    <div class="footer">
+      <p>This message was automatically generated from the Ambassador Program submission form.</p>
+      <p style="margin-top: 5px;">🚀 Excited to have them on board!</p>
+    </div>
+  </div>
+</body>
+</html>

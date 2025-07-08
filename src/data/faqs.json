@@ -1,0 +1,140 @@
+[
+  {
+    "id": "payment-and-shipping",
+    "title": "Payment & shipping",
+    "items": [
+      {
+        "question": "How long does the shipping take?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "When will my order ship?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "How can I track my order?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "Do you ship internationally?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "My tracking number isn’t working. What should I do?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "Do multiple items ship separately?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "Will I have to pay international taxes and duties?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "What if I entered the wrong address?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "What payment methods do you accept?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "How do I know there are discount codes running?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      }
+    ]
+  },
+	{
+    "id": "product",
+    "title": "Product",
+    "items": [
+      {
+        "question": "How long does the shipping take?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "When will my order ship?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "How can I track my order?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "Do you ship internationally?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "My tracking number isn’t working. What should I do?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "Do multiple items ship separately?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "Will I have to pay international taxes and duties?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "What if I entered the wrong address?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "What payment methods do you accept?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "How do I know there are discount codes running?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      }
+    ]
+  },
+	{
+    "id": "ar-viewer-mobile-app",
+    "title": "ARViewer Mobile App",
+    "items": [
+      {
+        "question": "How long does the shipping take?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "When will my order ship?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "How can I track my order?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "Do you ship internationally?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "My tracking number isn’t working. What should I do?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "Do multiple items ship separately?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "Will I have to pay international taxes and duties?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "What if I entered the wrong address?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "What payment methods do you accept?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      },
+			{
+        "question": "How do I know there are discount codes running?",
+				"answer": "Shipping times depend on the location that the package has to be sent to. Below you can find our average shipping times:Europe: Between 4-10 days on average. This depends on your location in Europe.United States: Between 3-5 days on average.Canada: Between 6-10 days on averageRest of the world: Between 10-15 days on average.*Due to COVID-19, please understand there might be a slight delay in shipping times."
+      }
+    ]
+  }
+]
