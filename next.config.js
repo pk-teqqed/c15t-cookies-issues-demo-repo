@@ -1,4 +1,3 @@
-const nextTranslate = require('next-translate-plugin')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -28,10 +27,6 @@ const nextConfig = {
 
     return config
   },
-  i18n: {
-    locales: ['en', 'nl'], // Supported locales
-    defaultLocale: 'en', // Default fallback locale
-  },
   images: {
     domains: [
       'images.unsplash.com',
@@ -45,4 +40,4 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextTranslate(nextConfig)
+module.exports = nextConfig
